@@ -30,26 +30,26 @@ These Keypad modules are made of thin, flexible membrane material. The 4 x4 keyp
 
  
 ## Procedure:
-Select a new STM32 Project.
+1.Select a new STM32 Project.
 
-Select GPIO Ports
+2.Select GPIO Ports
 ```
 
   PC0 , PC1 , PC2 , PC3 , PA0 , PA1 , PA2 , PA3 , PB0 , PB1  -> Output
 
   PC4 , PC5 , PC7 , PC8  -> Input
 ```
-Configure the Input Ports at Pull up Mode followed by generating the code.
+3.Configure the Input Ports at Pull up Mode followed by generating the code.
 
-Build Debug and Create 'hex.file'
+4.Build Debug and Create 'hex.file'
 
-Open a new Proteus Project.
+5.Open a new Proteus Project.
 
-Select STM32F401RB, LCD 16*2 and Keypad.
+6.Select STM32F401RB, LCD 16*2 and Keypad.
 
-Connect PA0 to D7 , PA1 to D6 , PA2 to D5 , PA3 to D4 , PB0 to RS , PB1 to E , PC0 to r1 , PC1 to r2 , PC2 to r3 , PC3 to r4 , PC4 to c1 , PC5 to c2 , PC6 to c3 and PC7 to c4.
+7.Connect PA0 to D7 , PA1 to D6 , PA2 to D5 , PA3 to D4 , PB0 to RS , PB1 to E , PC0 to r1 , PC1 to r2 , PC2 to r3 , PC3 to r4 , PC4 to c1 , PC5 to c2 , PC6 to c3 and PC7 to c4.
 
-Check the execution of the output using Run Option.
+8.Check the execution of the output using Run Option.
  
 
 
